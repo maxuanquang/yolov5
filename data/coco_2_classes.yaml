@@ -14,9 +14,9 @@
 # test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # Custom dataset
-path: ../datasets/coco  # dataset root dir
-train: val2017.txt  # train images (relative to 'path') 118287 images
-val: val2017.txt  # val images (relative to 'path') 5000 images
+path: ../datasets/coco2017  # dataset root dir
+train: images/train2017  # train images (relative to 'path') 118287 images
+val: images/val2017  # val images (relative to 'path') 5000 images
 test: # test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # Classes
